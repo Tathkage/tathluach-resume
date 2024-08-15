@@ -3,11 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>View Resume</title>
+    <title>View and Download Resume</title>
+    <style>
+        /* Optional: Style the iframe for better display */
+        iframe {
+            width: 100%;
+            height: 80vh; /* Adjust height as needed */
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    <h1>View Tathluach Chol's Resume</h1>
-    <!-- Link to PDF resume -->
-    <a href="Tathluach_Chol-F3_Technologies_Resume.pdf" download>Click to View PDF Resume</a>
+    <h1>View and Download Tathluach Chol's Resume</h1>
+    
+    <!-- Embed PDF resume directly in the browser -->
+    <iframe src="Tathluach_Chol-F3_Technologies_Resume.pdf" type="application/pdf"></iframe>
+    
+    <p>
+        <!-- Link to download PDF resume -->
+        <a href="Tathluach_Chol-F3_Technologies_Resume.pdf" download>Download PDF Resume</a>
+    </p>
 </body>
 </html>
